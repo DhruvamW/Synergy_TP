@@ -1,1 +1,29 @@
-
+{
+    "total students": 7,
+    "submitted students": [
+        "Aarav",
+        "Meera",
+        "Isha",
+        "Rohan",
+        "Tara"
+    ],
+    "submitted count": 5,
+    "missing students": [
+        "Kabir",
+        "Dev"
+    ],
+    "missing count": 2,
+    "average score": 6.8,
+    "domain wise average": {
+        "ML": 7.5,
+        "Web": 5.0,
+        "Electronics": 9.0
+    },
+    "highest scorer": "Isha",
+    "highest score": 9,
+    "lowest scorer": "Rohan",
+    "lowest score": 4,
+    "students below five": [
+        "Rohan"
+    ]
+}
