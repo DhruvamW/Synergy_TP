@@ -1,1 +1,16 @@
+# No external dependencies required.
+
+# This project uses only Python's standard library:
+
+# - csv
+
+# - json
+
+# - pathlib
+
+# - sys
+
+# Python Version:
+
+Python>=3.10
 
