@@ -1,0 +1,26 @@
+{
+    "total score": 34,
+    "total students": 7,
+    "highest score": 9,
+    "highest scorer": "Isha",
+    "lowest score": 4,
+    "lowest scorer": "Rohan",
+    "avg score": 4.857142857142857,
+    "number of submitted students": 5,
+    "number of missing submissions": 2,
+    "students who did not submit": [
+        "Kabir",
+        "Dev"
+    ],
+    "students scoring below five": [
+        "Kabir",
+        "Rohan",
+        "Dev"
+    ],
+    "domain wise avg": {
+        "ML": 5.0,
+        "Web": 5.0,
+        "Electronics": 9.0,
+        "Mechanical": 0.0
+    }
+}
