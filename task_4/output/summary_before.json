@@ -1,0 +1,56 @@
+{
+    "rows": 11,
+    "columns": 9,
+    "column_names": [
+        "student_id",
+        "name",
+        "domain",
+        "attendance_percent",
+        "score",
+        "study_hours",
+        "height",
+        "weight",
+        "submitted"
+    ],
+    "data_types": {
+        "student_id": "str",
+        "name": "str",
+        "domain": "str",
+        "attendance_percent": "str",
+        "score": "str",
+        "study_hours": "str",
+        "height": "str",
+        "weight": "str",
+        "submitted": "str"
+    },
+    "missing_values": {
+        "student_id": 0,
+        "name": 0,
+        "domain": 0,
+        "attendance_percent": 1,
+        "score": 1,
+        "study_hours": 0,
+        "height": 0,
+        "weight": 1,
+        "submitted": 0
+    },
+    "duplicates": 1,
+    "unique domains": [
+        "ml",
+        "Web Dev",
+        "ML",
+        "electronics",
+        "web",
+        "MACHINE LEARNING",
+        "Mechanical",
+        "Electronics",
+        "web development"
+    ],
+    "unique_submitted": [
+        "yes",
+        "Yes",
+        "no",
+        "Y",
+        "N"
+    ]
+}
