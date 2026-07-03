@@ -21,8 +21,8 @@ By the end of this task, the following should be explainable without referring b
 
 | File | Description |
 |---|---|
-| `Task3_<FullName>.pdf` | Final submitted report |
-| `Task3_<FullName>.docx` | Source file (Word format) |
+| `Task7_DhruvamWason.pdf` | Final submitted report |
+| `Task7_DhruvamWason.docx` | Source file (Word format) |
 | `README.md` | This file |
 
 ## Report Structure
