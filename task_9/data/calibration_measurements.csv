@@ -1,4 +1,4 @@
-record_id,domain,condition,input_type,input_value,input_unit,replicate,time_step,signal,signal_unit,expected_signal,baseline_signal,voltage_v,current_a,stress_mpa,reference_stress_mpa,temperature_c
+record_id,domain,condition,input_type,input_value,input_unit,replicate,time_step,signal,signal_unit,expected_signal,baseline_signal,voltage_v,current_a,stress_mpa,reference_stress_mpa,temperature_c   
 B001,Biochem,low_concentration,concentration,0.1,mM,1,1,0.12,absorbance,0.12,0.10,,,,,25
 B002,Biochem,low_concentration,concentration,0.1,mM,2,2,0.11,absorbance,0.12,0.10,,,,,25
 B003,Biochem,low_concentration,concentration,0.1,mM,3,3,0.13,absorbance,0.12,0.10,,,,,25
