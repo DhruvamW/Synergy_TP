@@ -30,7 +30,7 @@ class LinearRegression:
 
 
     def fit(self, x, y):
-        self.weights = np.zeros(X.shape[1])
+        self.weights = np.zeros(x.shape[1])
         self.bias = 0
 
         for epoch in range(self.epochs):
