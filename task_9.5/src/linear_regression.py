@@ -35,6 +35,7 @@ class LinearRegression:
 
         for epoch in range(self.epochs):
             current_loss= self.compute_cost(x,y)
+            self.loss_history.append(current_loss)
             dw, db= self.compute_gradients(x,y)
             self.weights -= self.learning_rate * dw
             self.bias -= self.learning_rate * db
