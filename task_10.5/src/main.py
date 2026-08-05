@@ -1,6 +1,7 @@
 import os
 import sys
 import pandas as pd
+import joblib
 
 from data_utils import load_data, split_data
 from models import (
@@ -96,6 +97,11 @@ def main():
     best_model_name = max( candidate_models, key=lambda model: results[model]["Validation R2"])
     print(f"\nBest Model: {best_model_name}")
     final_model = models[best_model_name]
+
+    joblib.dump(final_model, os.path.join(output_dir, "final_model.joblib"))
+    print("Model saved successfully.")
+
+
     y_pred = final_model.predict(X_test)
 
     plot_actual_vs_predicted(
