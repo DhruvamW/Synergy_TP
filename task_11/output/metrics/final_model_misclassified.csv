@@ -1,0 +1,2 @@
+N,P,K,temperature,humidity,ph,rainfall,actual_label,predicted_label
+60,59,22,31.86847286,66.74217464,7.191522601,74.22238583,blackgram,maize
