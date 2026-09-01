@@ -1,7 +1,7 @@
 import pandas as pd
 
 df = pd.read_csv(r"Synergy_TP\task_12\data\Smart_Farming_Crop_Yield_2024.csv")
-
+"""
 print(df.shape)
 print(df.columns)
 print(df.isnull().sum())
@@ -37,3 +37,4 @@ print(
         margins=True
     )
 )
+"""
