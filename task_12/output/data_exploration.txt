@@ -1,0 +1,108 @@
+(500, 22)
+Index(['farm_id', 'region', 'crop_type', 'soil_moisture_%', 'soil_pH',
+       'temperature_C', 'rainfall_mm', 'humidity_%', 'sunlight_hours',
+       'irrigation_type', 'fertilizer_type', 'pesticide_usage_ml',
+       'sowing_date', 'harvest_date', 'total_days', 'yield_kg_per_hectare',
+       'sensor_id', 'timestamp', 'latitude', 'longitude', 'NDVI_index',
+       'crop_disease_status'],
+      dtype='str')
+farm_id                   0
+region                    0
+crop_type                 0
+soil_moisture_%           0
+soil_pH                   0
+temperature_C             0
+rainfall_mm               0
+humidity_%                0
+sunlight_hours            0
+irrigation_type         150
+fertilizer_type           0
+pesticide_usage_ml        0
+sowing_date               0
+harvest_date              0
+total_days                0
+yield_kg_per_hectare      0
+sensor_id                 0
+timestamp                 0
+latitude                  0
+longitude                 0
+NDVI_index                0
+crop_disease_status     130
+dtype: int64
+280
+crop_disease_status
+Severe      133
+NaN         130
+Mild        125
+Moderate    112
+Name: count, dtype: int64
+crop_disease_status
+Severe      0.266
+NaN         0.260
+Mild        0.250
+Moderate    0.224
+Name: proportion, dtype: float64
+Unique farms: 500
+Unique sensors: 500
+Unique regions: 5
+Unique crops: 5
+region
+Central USA    109
+East Africa    107
+North India     99
+South USA       94
+South India     91
+Name: count, dtype: int64
+crop_type
+Maize      111
+Soybean    108
+Cotton     107
+Wheat       92
+Rice        82
+Name: count, dtype: int64
+Start: 2024-01-03 00:00:00
+End: 2024-08-12 00:00:00
+Unique dates: 172
+timestamp
+1     25
+2     70
+3     98
+4    121
+5    100
+6     64
+7     19
+8      3
+Name: count, dtype: int64
+timestamp  crop_disease_status
+1          Severe                 10
+           Mild                    4
+           Moderate                4
+2          Severe                 17
+           Moderate               16
+           Mild                   14
+3          Moderate               29
+           Severe                 27
+           Mild                   22
+4          Severe                 32
+           Mild                   32
+           Moderate               27
+5          Mild                   31
+           Severe                 30
+           Moderate               16
+6          Mild                   17
+           Moderate               14
+           Severe                 11
+7          Severe                  6
+           Moderate                5
+           Mild                    4
+8          Mild                    1
+           Moderate                1
+Name: count, dtype: int64
+crop_disease_status  Mild  Moderate  Severe  All
+region                                          
+Central USA            30        26      23   79
+East Africa            27        26      30   83
+North India            30        18      29   77
+South India            21        19      25   65
+South USA              17        23      26   66
+All                   125       112     133  370
